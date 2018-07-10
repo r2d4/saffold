@@ -1,0 +1,9 @@
+apiVersion: skaffold/v1alpha2
+kind: Config
+build:
+  artifacts:
+  - imageName: gcr.io/r2d4minikube/git-repo-example
+deploy:
+  kubectl:
+    manifests:
+      - k8s-*
