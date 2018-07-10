@@ -7,7 +7,7 @@ import (
 
 func main() {
 	for {
-		fmt.Println("Hello new commit!")
+		fmt.Println("Hello new deploy!")
 		time.Sleep(time.Second * 1)
 	}
 }
